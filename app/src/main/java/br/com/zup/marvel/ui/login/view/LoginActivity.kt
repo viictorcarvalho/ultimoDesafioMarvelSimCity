@@ -24,11 +24,11 @@ class LoginActivity : AppCompatActivity() {
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.tvRegisterNow?.setOnClickListener {
+        binding.tvRegisterNow.setOnClickListener {
             goToRegister()
         }
 
-        binding.bvLogin?.setOnClickListener {
+        binding.bvLogin.setOnClickListener {
             val user = getDataUser()
             viewModel.validateDataUser(user)
         }
@@ -38,8 +38,8 @@ class LoginActivity : AppCompatActivity() {
 
     private fun getDataUser(): User {
         return User(
-            email = binding.etUserEmail?.text.toString(),
-            password = binding.etPassword?.text.toString()
+            email = binding.etUserEmail.text.toString(),
+            password = binding.etPassword.text.toString()
         )
     }
 

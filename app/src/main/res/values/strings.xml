@@ -2,7 +2,7 @@
     <string name="app_name">Marvel</string>
     <string name="detalhe_name">Detalhes</string>
     <string name="informacoes_name">Marvel Studios</string>
-    <string name="texto_home">"Olá addNomeDoUsuarioLogado esses são alguns dos personagens da Marvel</string>
+    <string name="texto_home">"Olá, %s! Esses são alguns dos personagens da Marvel</string>
     <string name="lista_nome_heroi">Nome do heroi</string>
     <string name="texto_detalhe_descricao">Rogue é uma mutante Nível Ômega, personagem de histórias em quadrinhos da editora Marvel Comics. Vampira é integrante de algumas equipes dos X-Men e dos Vingadores</string>
     <string name="texto_informacoes_marvel">Informações sobre a Marvel</string>
@@ -21,22 +21,17 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 
     <string name="register_now">Criar nova conta!</string>
-    <string name="email">email</string>
-    <string name="password">password</string>
     <string name="action_sign_in_short">Sign in</string>
-    <string name="text_login">ENTRAR</string>
-    <string name="title_activity_login2">LoginActivity2</string>
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password</string>
+    <string name="text_login">LOGIN</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="name">Nome</string>
     <string name="action_sign_in">Sign in or register</string>
-    <string name="welcome">"Welcome !"</string>
+    <string name="welcome">"Welcome!"</string>
     <string name="invalid_username">Not a valid username</string>
-    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="invalid_password">Password must be >8 characters</string>
     <string name="login_failed">"Login failed"</string>
     <string name="register">Registrar</string>
     <string name="exit">Sair</string>
-    <string name="register_name">Digite seu nome</string>
-    <string name="register_email">Digite seu email</string>
-    <string name="register_password">Digite sua senha</string>
-    <string name="register_now_title">CADASTRAR AGORA</string>
+    <string name="register_now_title">REGISTRAR AGORA</string>
 </resources>

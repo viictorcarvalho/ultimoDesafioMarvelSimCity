@@ -16,7 +16,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="96dp"
-        android:hint="@string/prompt_email"
+        android:hint="@string/email"
         android:inputType="textEmailAddress"
         android:selectAllOnFocus="true"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,26 +28,26 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:hint="@string/prompt_password"
+        android:hint="@string/password"
         android:imeActionLabel="@string/action_sign_in_short"
         android:imeOptions="actionDone"
         android:inputType="textPassword"
         android:selectAllOnFocus="true"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etUserEmail" />
 
     <TextView
         android:id="@+id/tvRegisterNow"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_8"
         android:text="@string/register_now"
-        android:textAlignment="viewEnd"
         android:textStyle="bold"
+        android:textSize="@dimen/font_size_16"
         app:layout_constraintEnd_toEndOf="@+id/etPassword"
-        app:layout_constraintStart_toStartOf="@+id/etPassword"
-        app:layout_constraintTop_toBottomOf="@+id/etPassword"
-        android:gravity="end" />
+        app:layout_constraintTop_toBottomOf="@+id/etPassword" />
 
     <Button
         android:id="@+id/bvLogin"
@@ -55,7 +55,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="start"
         android:layout_marginTop="@dimen/margin_size_32"
-        android:text="@string/action_sign_in"
+        android:text="@string/text_login"
         app:layout_constraintEnd_toEndOf="@+id/tvRegisterNow"
         app:layout_constraintStart_toStartOf="@+id/tvRegisterNow"
         app:layout_constraintTop_toBottomOf="@+id/tvRegisterNow" />
