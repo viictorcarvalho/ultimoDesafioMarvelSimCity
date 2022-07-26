@@ -10,4 +10,33 @@
     <string name="filmes_texto">AQUI PODERIA TER UM RECYCLERVIEW COM ALGUNS FILMES DA MARVEL!</string>
     <string name="hqs_texto">AQUI PODERIA TER UM RECYCLERVIEW COM ALGUNS HQS DA MARVEL!</string>
     <string name="description_image_splash">Imagem com os personagens da Marvel</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="register_now">Criar nova conta!</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="text_login">ENTRAR</string>
+    <string name="title_activity_login2">LoginActivity2</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="register">Registrar</string>
+    <string name="exit">Sair</string>
+    <string name="register_name">Digite seu nome</string>
+    <string name="register_email">Digite seu email</string>
+    <string name="register_password">Digite sua senha</string>
+    <string name="register_now_title">CADASTRAR AGORA</string>
 </resources>
