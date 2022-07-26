@@ -19,10 +19,10 @@ class RegisterViewModel : ViewModel() {
     fun validateDataUser(user: User) {
         when {
             user.name.length < 3 -> {
-                _errorState.value = NAME_ERROR_MESSAGE2
+                _errorState.value = NAME_ERROR_MESSAGE1
             }
             user.name.isEmpty() -> {
-                _errorState.value = NAME_ERROR_MESSAGE1
+                _errorState.value = NAME_ERROR_MESSAGE2
             }
             user.email.isEmpty() -> {
                 _errorState.value = EMAIL_ERROR_MESSAGE

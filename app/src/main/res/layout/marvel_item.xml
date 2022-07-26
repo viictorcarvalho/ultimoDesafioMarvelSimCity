@@ -31,6 +31,7 @@
             android:text="@string/lista_nome_heroi"
             android:textSize="12dp"
             android:textStyle="bold"
+            android:textColor="@color/black"
             app:layout_constraintBottom_toBottomOf="@+id/ivMarvel"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/ivMarvel"

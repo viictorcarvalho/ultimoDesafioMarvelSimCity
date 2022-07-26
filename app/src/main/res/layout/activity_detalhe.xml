@@ -25,6 +25,7 @@
         android:textAlignment="center"
         android:textSize="@dimen/font_size_16"
         android:textStyle="bold"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="@+id/ivHeroiDetalhe"
         app:layout_constraintStart_toStartOf="@+id/ivHeroiDetalhe"
         app:layout_constraintTop_toBottomOf="@+id/ivHeroiDetalhe" />
@@ -34,6 +35,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_16"
+        android:textColor="@color/black"
         android:text="@string/texto_detalhe_descricao"
         app:layout_constraintEnd_toEndOf="@+id/ivHeroiDetalhe"
         app:layout_constraintStart_toStartOf="@+id/ivHeroiDetalhe"
