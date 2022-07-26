@@ -2,8 +2,10 @@ package br.com.zup.marvel.ui.login.view
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
+import br.com.zup.marvel.LOGIN_ERROR_MESSAGE
 import br.com.zup.marvel.USER_KEY
 import br.com.zup.marvel.databinding.ActivityLoginBinding
 import br.com.zup.marvel.domain.model.User
@@ -53,7 +55,7 @@ class LoginActivity : AppCompatActivity() {
         }
 
         viewModel.errorState.observe(this) {
-            Snackbar.make(binding.root, it, Snackbar.LENGTH_LONG).show()
+            Toast.makeText(this, LOGIN_ERROR_MESSAGE, Toast.LENGTH_SHORT).show()
         }
     }
 
