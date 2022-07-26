@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1023542982925",
+    "project_id": "victor-catalisa-desafio-marvel",
+    "storage_bucket": "victor-catalisa-desafio-marvel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023542982925:android:76574b350e565801819844",
+        "android_client_info": {
+          "package_name": "br.com.zup.marvel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023542982925-h7fro28udm1792k35c0mg2usi0e6pcld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiDZtlXwZ-7TctBmXxVGlW070bNRb3e4Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023542982925-h7fro28udm1792k35c0mg2usi0e6pcld.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
