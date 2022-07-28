@@ -3,7 +3,6 @@ package br.com.zup.marvel.ui.register.view
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.BoringLayout.make
 import android.view.MenuItem
 import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
@@ -13,8 +12,7 @@ import br.com.zup.marvel.databinding.ActivityRegisterBinding
 import br.com.zup.marvel.domain.model.User
 import br.com.zup.marvel.ui.home.view.HomeActivity
 import br.com.zup.marvel.ui.register.viewmodel.RegisterViewModel
-import com.google.android.material.snackbar.Snackbar
-import com.google.android.material.snackbar.Snackbar.make
+
 
 class RegisterActivity : AppCompatActivity() {
     private lateinit var binding: ActivityRegisterBinding

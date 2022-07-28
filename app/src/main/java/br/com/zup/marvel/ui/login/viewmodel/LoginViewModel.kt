@@ -1,5 +1,6 @@
 package br.com.zup.marvel.ui.login.viewmodel
 
+import android.util.Patterns
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -20,7 +21,7 @@ class LoginViewModel : ViewModel() {
 
     fun validateDataUser(user: User) {
         when {
-            user.email.isEmpty() -> {
+            !Patterns.EMAIL_ADDRESS.matcher(user.email).matches() -> {
                 _errorState.value = EMAIL_ERROR_MESSAGE
             }
             user.password.isEmpty() -> {
